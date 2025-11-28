@@ -47,7 +47,7 @@ In this context, we propose an extension of the Brain Imaging Data Structure (BI
 ### Methods Section Content (Old Version)
 
 #### BIDS Terminology Definitions
-- **Modality**: The category of brain data recorded by a file. For MRI data, different pulse sequences are considered distinct modalities, such as T1w, bold or dwi. For passive recording techniques, such as EEG, MEG or iEEG, the technique is sufficiently uniform to define the modalities eeg, meg and ieeg. When applicable, the modality is indicated in the suffix. The modality may overlap with, but should not be confused with the data type.
+- **Modality**: The category of brain data recorded by a file. For MRI data, different pulse sequences are considered distinct modalities, such as T1w, bold or dwi. For passive recording techniques, such as EEG, MEG or iEEG, the technique is sufficiently uniform to define the modalities EEG, MEG and iEEG. When applicable, the modality is indicated in the suffix. The modality may overlap with, but should not be confused with the data type.
 - **Data type**: A functional group of different types of data. Data files are contained in a directory named for the data type. In raw datasets, the data type directory is nested inside subject and (optionally) session directories.
 - **Suffix**: An alphanumeric string that is part of a filename, located after all entities and following a final `_`, right before the file extension. For example, it is `eeg` in `sub-05_task-matchingpennies_eeg.vhdr`.
 
